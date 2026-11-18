@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.HotWheelsPizza" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+        <style name="Theme.HotWheelsPizza" parent="Theme.Material3.DayNight.NoActionBar">
+            <!-- Customize your theme here. -->
+            <item name="colorPrimary">@color/md_theme_primary</item>
+            <item name="colorSecondary">@color/md_theme_secondary</item>
+            <item name="colorError">@color/md_theme_error</item>
+            <item name="android:statusBarColor" tools:targetApi="l">@android:color/transparent</item>
+            <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+
+            <!-- Material typography & shape -->
+            <item name="materialButtonStyle">@style/Widget.Material3.Button</item>
+<!--            <item name="materialCardViewStyle">@style/Widget.Material3.CardView</item>-->
+<!--            <item name="android:textAppearance">@style/CustomTypography.Body</item>-->
+        </style>
+
+</resources>
